@@ -1,0 +1,27 @@
+{
+  "name": "gone-demons",
+  "version": "1.0.0",
+  "description": "a fun game about gone demons",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeGenD/gone-demons.git"
+  },
+  "keywords": [
+    "game",
+    "gone",
+    "demons"
+  ],
+  "author": "LeeGenD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeGenD/gone-demons/issues"
+  },
+  "homepage": "https://github.com/LeeGenD/gone-demons#readme",
+  "dependencies": {
+    "babel": "^6.5.2"
+  }
+}
