@@ -23,5 +23,13 @@
   "homepage": "https://github.com/LeeGenD/gone-demons#readme",
   "dependencies": {
     "babel": "^6.5.2"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.13.6",
+    "require-dir": "^0.3.0"
   }
 }
