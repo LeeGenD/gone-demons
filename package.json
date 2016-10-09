@@ -25,6 +25,8 @@
     "babel": "^6.5.2"
   },
   "devDependencies": {
+    "browser-sync": "^2.16.0",
+    "colors": "^1.1.2",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",

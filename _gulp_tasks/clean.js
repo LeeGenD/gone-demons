@@ -4,7 +4,7 @@ var del = require('del');
 
 gulp.task('clean', function() {
     return del([
-        'dist'
+        config.dist
     ], {
         dot: true
     });
