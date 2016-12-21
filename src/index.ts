@@ -75,7 +75,7 @@ class MoveObject extends BaseObject {
 		if (this.status !== MoveObject.MOVE_STATUS.STOP) {
 			this.preTime = this.preTime || now;
 			let p = (now - this.preTime) / 1000;
-			console.log(this.status);
+			//console.log(this.status);
 			switch(this.status) {
 				case MoveObject.MOVE_STATUS.DOWN:
 					this.y += p * MoveObject.speed;
@@ -151,7 +151,7 @@ class MoveObject extends BaseObject {
 			speedX: speedX || 1,
 			speedY: speedY || 1
 		}
-		console.log(this.goToData);
+		//console.log(this.goToData);
 		this.startMove();
 		this.status = MoveObject.MOVE_STATUS.GO_TO;
 	}

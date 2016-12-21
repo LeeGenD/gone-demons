@@ -12,7 +12,7 @@ gulp.task('scripts', function() {
         }));
  
     return tsResult.js
-        .pipe(concat('output.js')) // You can use other plugins that also support gulp-sourcemaps 
+        //.pipe(concat('output.js')) // You can use other plugins that also support gulp-sourcemaps 
         .pipe(sourcemaps.write()) // Now the sourcemaps are added to the .js file 
         .pipe(gulp.dest('dist/js'));
 });
